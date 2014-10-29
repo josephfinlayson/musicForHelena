@@ -1,0 +1,5 @@
+<li ng-repeat="artist in artists.topartists.artist">
+            <a href="{{artist.url}}"" style="background-image: url({{artist.image[2][\'#text\']}})"><span>{{artist.name}}<br />
+            {{artist.playcount}} plays</span >
+        </a>
+        </li>
