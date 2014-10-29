@@ -1,0 +1,1 @@
+<li ng-repeat="track in tracks.toptracks.track"> <a slide-toggle="#trackSlideable" on-close="pauseTrackPlayer" on-open="playTrackPlayer" style="background-image: url({{track.image[2]['#text']}})" ng-click="setVideoId(track, 'track')"> <span>{{track.name}} <br>{{track.playcount}} plays</span> </a> </li>
